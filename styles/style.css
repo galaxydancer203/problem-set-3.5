@@ -1,0 +1,16 @@
+/*hi test*/
+table,  th, td {
+border: 2px solid black;
+}
+ .index{
+  background-color: #9494ff;
+}
+.offwall{
+  background-color: #eed484;
+}
+.onwall{
+  background-color: #aaaebc;
+}
+.climbing{
+  background-color: #ba160c;
+}
