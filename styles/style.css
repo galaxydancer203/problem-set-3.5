@@ -6,11 +6,31 @@ border: 2px solid black;
   background-color: #9494ff;
 }
 .offwall{
-  background-color: #eed484;
+  background-color: #a48662;
 }
 .onwall{
   background-color: #aaaebc;
 }
 .climbing{
-  background-color: #ba160c;
+  background-color: #ece7d4;
+}
+a:hover{
+color: #eed484;
+}
+img{
+ border: 5px solid #6a0032;
+ border-radius: 7px;
+}
+#inrock{
+  height:50%;
+   width:50%;
+}
+#causalclothes{
+  height: 200px;
+  width:200px;
+}
+
+#belayer{
+  height:224px;
+   width:300px;
 }
