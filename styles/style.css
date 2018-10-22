@@ -1,19 +1,10 @@
-/*hi test*/
-table,  th, td {
-border: 2px solid black;
-}
- .index{
-  background-color: #9494ff;
-}
-.offwall{
-  background-color: #a48662;
-}
-.onwall{
-  background-color: #aaaebc;
-}
-.climbing{
-  background-color: #ece7d4;
-}
+*.heading{font-size: 50px;}
+tr > td {font-size: 19px;}
+/*col.specialcol || table {font-size: 500px;}
+/* pseudo*/
+
+a:link {color: #ffe4e1;}
+a:visited {color: #ff0000;}
 a:hover{
 color: #eed484;
 }
@@ -21,6 +12,41 @@ img{
  border: 5px solid #6a0032;
  border-radius: 7px;
 }
+/* Text selector */
+ul{
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+}
+b{
+  font-size: 25px;
+  color: #800000;
+}
+
+h1 {
+ color: white;
+ font-size: 50px;
+}
+/* Text selectors end */
+  .table{
+    background: #fa8072
+  }
+.list{
+  background: #ffa500
+}
+.heading{
+  color:white;
+}
+a {
+  color:blue;
+}
+a[href*=".."] {
+  background-color: #d3ffce;
+}
+a[href*="mailto"] {
+  background-color: #ff0000;
+}
+/* All of these below are my ids so they count */
 #inrock{
   height:50%;
    width:50%;
@@ -33,4 +59,32 @@ img{
 #belayer{
   height:224px;
    width:300px;
+}
+#harness{
+  height:213px;
+   width:237px;
+}
+#shoes{
+  height:171px;
+   width:294px;
+}
+#belaydevice{
+  height:385px;
+   width:440px;
+}
+#carabiner{
+  height:225px;
+   width:225px;
+}
+#tapedrocks{
+  height:25%;
+   width:25%;
+}
+#descent{
+  height:600px;
+   width:404px;
+}
+#goodjob{
+  height:232px;
+   width:217px;
 }
